@@ -1,15 +1,24 @@
 # tingle-notification
 此项目基于 React 0.14.3 ，使用前请注意版本兼容性。
 
+## 用例
+```jsx
+const Notice = require('tingle-notification');
+<Notice onClick={handler}>
+最新公告，点击查看 <Notice.LinkButton/>
+</Notice>
+```
 
 ## API接口
 
 #### .hide()
 描述：隐藏此组件
+
 类型：Function
 
 #### .show()
 描述：显示此组件
+
 类型：Function
 
 ## 内置了两个常用的按钮样式
