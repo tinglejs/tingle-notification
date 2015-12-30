@@ -1,0 +1,28 @@
+/**
+ * Notification Component Style for tingle
+ * @author Kuncheng Zhao
+ *
+ * Copyright 2014-2015, Tingle Team, Alinw.
+ * All rights reserved.
+ */
+.tNotification {
+  background-color: #ffffa5;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #f80;
+  font-size: 12px;
+}
+.tNotification .tTinyButton {
+  width: 25px;
+  text-align: right;
+  margin-left: 10px;
+}
+.tNotification .tTinyButton .tIcon {
+  width: 13px;
+  height: 13px;
+  fill: #f80;
+}
+
+/*# sourceMappingURL=Notification.css.map */
