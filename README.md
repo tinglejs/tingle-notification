@@ -11,7 +11,7 @@ const Notice = require('tingle-notification');
 </Notice>
 
 
-<Notice onClick={handler}>
+<Notice ref="successNotice" onClick={this.refs.successNotice.hide()}>
 注册成功，欢迎使用 <Notice.CloseButton/>
 </Notice>
 
