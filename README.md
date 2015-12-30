@@ -15,3 +15,4 @@ npm install tingle-notification --save
 ## Links
 
 - [Issues](http://github.com/tinglejs/tingle-notification/issues)
+
